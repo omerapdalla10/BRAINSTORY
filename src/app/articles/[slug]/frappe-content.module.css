@@ -1,0 +1,59 @@
+.frappeContent :global(.ql-editor) {
+  line-height: 1.42;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.frappeContent :global(.ql-editor p) {
+  margin: 0;
+}
+
+.frappeContent :global(.ql-editor p + p) {
+  margin-top: 0.75rem;
+}
+
+.frappeContent :global(.ql-editor h1),
+.frappeContent :global(.ql-editor h2),
+.frappeContent :global(.ql-editor h3),
+.frappeContent :global(.ql-editor h4),
+.frappeContent :global(.ql-editor h5),
+.frappeContent :global(.ql-editor h6) {
+  margin: 1rem 0 0.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.frappeContent :global(.ql-editor h1) {
+  font-size: 2.1rem;
+}
+
+.frappeContent :global(.ql-editor h2) {
+  font-size: 1.6rem;
+}
+
+.frappeContent :global(.ql-editor h3) {
+  font-size: 1.3rem;
+}
+
+.frappeContent :global(.ql-editor img) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  vertical-align: middle;
+}
+
+.frappeContent :global(.ql-editor p img) {
+  display: inline-block;
+  margin: 0;
+  max-width: calc(100% - 2px);
+}
+
+.frappeContent :global(.ql-editor p:has(img)) {
+  line-height: 0;
+}
+
+.frappeContent :global(.ql-editor a) {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
